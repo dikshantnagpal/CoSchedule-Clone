@@ -5,7 +5,7 @@
     height: 40px;
     margin-right: -23px;
     margin-left: 10px;
-    margin-top: -12px;
+    margin-top: -17px;
 }
 #navbar {
     display: flex;
@@ -16,7 +16,9 @@
     margin-top: 30px;
     
 }
-
+#navbar>h2{
+    margin-top: -5px;
+}
 .right {
     margin-left: 270px;
 }
@@ -26,15 +28,16 @@
     width: 150px;
     margin-top: -15px;
     font-family: MuseoSans-700, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     background-color: #f37e5d;
-    padding: 12px 20px;
+    padding: 12px 12px;
     font-size: 14px;
     color: #fff;
     border-radius: 4px;
     min-width: 150px;
     border: 0;
     margin-left: -10px;
+    cursor: grab;
 
 }
 
@@ -311,3 +314,18 @@ a{
     display: flex;
     margin-top: 20px;
 }
+#para{
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 10px;
+    
+ }
+ .navbtn:hover{
+    cursor: pointer;
+ }
+ #bottom2>button:hover{
+cursor: pointer;
+ }
+ #center>button:hover{
+    cursor: pointer;
+ }
