@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    
+    function reverse(num){
+        
+        let bag=0
+        let y=0
+        let x=num
+        while(x>0){
+            y=x%10
+            console.log(y)
+            bag=bag*10+y
+            x=Math.floor(x/10)
+        }
+        
+        console.log(bag)
+        if(num===bag){
+            console.log("Yes it is a palindrome")
+        }else{
+            console.log("No its not a palindrome")
+        }
+        
+    }
+    reverse(123)
+</script>
